@@ -13,7 +13,7 @@ public class TaskFactory {
 	  * @return
 	  */
 	 public static Task createTask(TaskConfig config) {
-		String classname = config.getTaskClass();
+		String classname = config.getClassName();
 		Task task = null;
 		try {
 			task = (Task) Class.forName(classname).newInstance();

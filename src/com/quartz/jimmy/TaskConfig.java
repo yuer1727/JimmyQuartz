@@ -20,15 +20,6 @@ public class TaskConfig {
 	}
 
 	
-	public String getTaskClass() {
-		return TaskClass;
-	}
-	public void setTaskClass(String taskClass) {
-		TaskClass = taskClass;
-	}
-	private String TaskClass;
-	
-
 	public boolean isActivity()
 	{
 		return activity;

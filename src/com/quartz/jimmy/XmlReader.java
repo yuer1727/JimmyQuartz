@@ -58,7 +58,7 @@ public class XmlReader {
 						taskConfig.setActivity(false);
 					}
 					taskConfig.setScanPeriod(childs.get(i).getChildText("scanPeriod"));
-					taskConfig.setTaskClass(childs.get(i).getChildText("className"));
+					taskConfig.setClassName(childs.get(i).getChildText("className"));
 					tasks.add(taskConfig);
 				}
 			} catch (NumberFormatException e) {
